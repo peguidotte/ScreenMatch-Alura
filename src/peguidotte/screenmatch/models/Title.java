@@ -1,7 +1,6 @@
-package peguidotte.screenmatch.modelos;
+package peguidotte.screenmatch.models;
 
-public class Film {
-
+public class Title {
     //main
     private String name;
     private int date;

@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07e593bc-e6c2-4d65-96d8-767b3245f21c" name="Changes" comment="add(class film)&#10;increment(class main)&#10;test(class main - test1)">
+    <list default="true" id="07e593bc-e6c2-4d65-96d8-767b3245f21c" name="Changes" comment="add (set and get methods)">
+      <change afterPath="$PROJECT_DIR$/src/peguidotte/screenmatch/calc/TimeCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/peguidotte/screenmatch/models/Series.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/peguidotte/screenmatch/models/Title.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/peguidotte/screenmatch/modelos/Film.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/peguidotte/screenmatch/modelos/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/peguidotte/screenmatch/models/Film.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +70,29 @@
       <option name="project" value="LOCAL" />
       <updated>1719884078872</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add (paste)&#10;add (private in attributes Film)&#10;delete (&quot;show&quot; methods)">
+      <option name="closed" value="true" />
+      <created>1719964520417</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719964520417</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add (set and get methods)">
+      <option name="closed" value="true" />
+      <created>1719964562920</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719964562920</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add(class film)&#10;increment(class main)&#10;test(class main - test1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add(class film)&#10;increment(class main)&#10;test(class main - test1)" />
+    <MESSAGE value="add (paste)&#10;add (private in attributes Film)&#10;delete (&quot;show&quot; methods)" />
+    <MESSAGE value="add (set and get methods)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add (set and get methods)" />
   </component>
 </project>
