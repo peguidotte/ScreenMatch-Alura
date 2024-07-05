@@ -1,6 +1,8 @@
 package peguidotte.screenmatch.models;
 
-public class Film extends Title {
+import peguidotte.screenmatch.calc.Rate;
+
+public class Film extends Title implements Rate {
     private boolean preview;
 
     public boolean isPreview() {
@@ -9,5 +11,10 @@ public class Film extends Title {
 
     public void setPreview(boolean preview) {
         this.preview = preview;
+    }
+
+    @Override
+    public double getRating() {
+        return (double) averageScore() / 2;
     }
 }

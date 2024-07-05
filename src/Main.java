@@ -1,3 +1,5 @@
+import peguidotte.screenmatch.calc.Filter;
+
 import peguidotte.screenmatch.models.Film;
 import peguidotte.screenmatch.models.Series;
 import peguidotte.screenmatch.calc.TimeCalculator;
@@ -16,7 +18,7 @@ public class Main {
         test2.setPlanInclude(true);
         test2.setPreview(false);
         test2.addScore(9);
-        test2.addScore(5);
+        test2.addScore(9);
         test2.addScore(9);
         test2.setProtagonist("Ryan Reynolds");
         test2.setDirector("Tim Miller");
@@ -44,7 +46,11 @@ public class Main {
         calculator.includeTimeCalculator(test3);
 
         System.out.println(calculator.getCalculatedTime());
-
+        System.out.println(test3.getRating() + " stars");
+        System.out.println(test2.getRating() + " stars");
+        Filter filter = new Filter();
+        filter.filter(test3,test3);
+        filter.filter(test2,test2);
 
     }
 }

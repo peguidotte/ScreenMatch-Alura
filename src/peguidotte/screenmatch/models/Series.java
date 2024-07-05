@@ -1,6 +1,7 @@
 package peguidotte.screenmatch.models;
+import peguidotte.screenmatch.calc.Rate;
 
-public class Series extends Title{
+public class Series extends Title implements Rate {
     private int seasons;
     private int episodes;
     private int episodesMinutes;
@@ -44,4 +45,8 @@ public class Series extends Title{
     }
 
 
+    @Override
+    public double getRating() {
+        return (double) averageScore() / 2;
+    }
 }

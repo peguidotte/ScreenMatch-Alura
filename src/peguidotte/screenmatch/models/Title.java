@@ -100,10 +100,7 @@ public class Title {
         scoreAmount ++;
     }
 
-    public double averageScore(){
+    public double averageScore() {
         return totalScore / scoreAmount;
     }
-
-
-
 }
