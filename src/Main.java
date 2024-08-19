@@ -22,9 +22,7 @@ public class Main {
             System.out.println("\nUpgrade your plan or wait preview finish for watch this!");
         }
 
-        Serie the_flash = new Serie();
-        the_flash.setName("The Flash");
-        the_flash.setDate(2015);
+        Serie the_flash = new Serie("The Flash", 2015, 10);
         the_flash.setEpisodes(80);
         the_flash.setEpisodesMinutes(50);
         the_flash.setSeasons(10);
@@ -44,9 +42,7 @@ public class Main {
         filter.filter(the_flash,the_flash);
         filter.filter(deadpool,deadpool);
 
-        var avengers = new Film();
-        avengers.setName("Avengers");
-        avengers.setDate(2012);
+        var avengers = new Film("Avengers", 2012);
 
         ArrayList<Film> films = new ArrayList<>();
         films.add(avengers);
@@ -67,10 +63,8 @@ public class Main {
     }
 
     private static Film getDeadpool() {
-        Film deadpool = new Film();
-        deadpool.setName("Deadpool");
+        Film deadpool = new Film("Deadpool", 2016);
         deadpool.setDescription("A anti-hero and comedian, dress with a red uniform, two swords, two guns and a lot of bullshits. Oh, he is immortal to.");
-        deadpool.setDate(2016);
         deadpool.setMinutes(108);
         deadpool.setYearClassification(18);
         deadpool.setPlanInclude(true);

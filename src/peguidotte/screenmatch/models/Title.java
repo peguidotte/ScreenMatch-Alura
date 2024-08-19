@@ -18,6 +18,10 @@ public class Title {
     private String genre;
     private String protagonist;
 
+    public Title(String name, int date) {
+        this.name = name;
+        this.date = date;
+    }
 
     public int getScoreAmount() {
         return scoreAmount;

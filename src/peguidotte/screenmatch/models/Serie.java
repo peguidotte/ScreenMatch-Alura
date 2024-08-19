@@ -7,6 +7,12 @@ public class Serie extends Title implements Rate {
     private int episodesMinutes;
     private boolean active;
 
+    public Serie(String name, int date, int seasons) {
+        super(name, date);
+        this.setSeasons(seasons);
+    }
+
+
     public int getSeasons() {
         return seasons;
     }
