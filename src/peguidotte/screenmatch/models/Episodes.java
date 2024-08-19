@@ -4,7 +4,7 @@ public class Episodes {
     private String name;
     private int episodeNumber;
     private int seasonNumber;
-    private Series series;
+    private Serie serie;
     private int minutes;
     private int views;
 
@@ -32,12 +32,12 @@ public class Episodes {
         this.seasonNumber = seasonNumber;
     }
 
-    public Series getSeries() {
-        return series;
+    public Serie getSeries() {
+        return serie;
     }
 
-    public void setSeries(Series series) {
-        this.series = series;
+    public void setSeries(Serie serie) {
+        this.serie = serie;
     }
 
     public int getMinutes() {

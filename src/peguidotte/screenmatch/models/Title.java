@@ -103,4 +103,15 @@ public class Title {
     public double averageScore() {
         return totalScore / scoreAmount;
     }
+
+    @Override
+    public String toString() {
+        if (this instanceof Film){
+            return "Film: " + this.getName() + " (" + this.getDate() + ")";
+        } else if (this instanceof Serie) {
+            return "Serie: " + this.getName() + " (" + this.getDate() + ")";
+        } else {
+            return "Title: " + this.getName();
+        }
+    }
 }

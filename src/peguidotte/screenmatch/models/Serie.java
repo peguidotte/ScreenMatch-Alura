@@ -1,7 +1,7 @@
 package peguidotte.screenmatch.models;
 import peguidotte.screenmatch.calc.Rate;
 
-public class Series extends Title implements Rate {
+public class Serie extends Title implements Rate {
     private int seasons;
     private int episodes;
     private int episodesMinutes;
