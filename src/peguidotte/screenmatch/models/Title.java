@@ -1,7 +1,7 @@
 package peguidotte.screenmatch.models;
 
 public class Title {
-    //main
+    //peguidotte.screenmatch.main
     private String name;
     private int date;
     private String description;

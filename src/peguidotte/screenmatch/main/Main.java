@@ -1,3 +1,5 @@
+package peguidotte.screenmatch.main;
+
 import peguidotte.screenmatch.calc.Filter;
 
 import peguidotte.screenmatch.models.Film;
