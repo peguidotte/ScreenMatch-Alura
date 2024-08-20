@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07e593bc-e6c2-4d65-96d8-767b3245f21c" name="Changes" comment="att toString &#10;add ArrayList">
+    <list default="true" id="07e593bc-e6c2-4d65-96d8-767b3245f21c" name="Changes" comment="add Constructors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/peguidotte/screenmatch/models/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/peguidotte/screenmatch/models/Film.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/peguidotte/screenmatch/models/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/peguidotte/screenmatch/models/Serie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/peguidotte/screenmatch/models/Title.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/peguidotte/screenmatch/models/Title.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724092560944</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add Constructors">
+      <option name="closed" value="true" />
+      <created>1724096888873</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724096888873</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -122,6 +126,7 @@
     <MESSAGE value="add (set and get methods)" />
     <MESSAGE value="add (Super Class &quot;Title&quot;) inheritance&#10;add (Sub Class &quot;Series&quot; &amp; &quot;TimeCalculator&quot;)" />
     <MESSAGE value="att toString &#10;add ArrayList" />
-    <option name="LAST_COMMIT_MESSAGE" value="att toString &#10;add ArrayList" />
+    <MESSAGE value="add Constructors" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Constructors" />
   </component>
 </project>
