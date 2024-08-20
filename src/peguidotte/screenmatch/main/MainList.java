@@ -5,6 +5,8 @@ import peguidotte.screenmatch.models.Serie;
 import peguidotte.screenmatch.models.Title;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class MainList {
     public static void main(String[] args) {
@@ -14,7 +16,7 @@ public class MainList {
         avengers.addScore(9);
         var the_flash = new Serie("The Flash", 2015, 10);
 
-        ArrayList<Title> titles = new ArrayList<>();
+        List<Title> titles = new ArrayList<>();
         titles.add(deadpool);
         titles.add(avengers);
         titles.add(the_flash);
@@ -25,5 +27,7 @@ public class MainList {
             System.out.println(title);
             }
         }
+        Collections.sort(titles);
+        System.out.println(titles);
     }
 }

@@ -1,6 +1,6 @@
 package peguidotte.screenmatch.models;
 
-public class Title {
+public class Title implements Comparable<Title>{
     //peguidotte.screenmatch.main
     private String name;
     private int date;
@@ -117,5 +117,10 @@ public class Title {
         } else {
             return "Title: " + this.getName();
         }
+    }
+
+    @Override
+    public int compareTo(Title outro) {
+        return this.getName().compareTo(outro.getName());
     }
 }
